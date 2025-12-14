@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+     background-color: black;
+    color: white; 
+}
+
+a{
+    text-decoration: none
+}
+
+.home{
+    margin: -2px;
+    padding: -2px;
+    width: 39px;
+}
+
+.search{
+    width: 4px;
+}
+
+
+.l1{
+    margin: -1px;
+    margin-left: 1%;
+    padding: 20px;
+    padding-inline: 10px;
+    gap: 34px;
+}
+.r1{
+    gap: 25px;
+    justify-content: space-between;
+    padding: 10px;
+    padding-inline: 0px;
+}
+
+.container{
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+}
+.top{
+    font-size: 111%;
+    padding: 10px;
+    margin: 11px;
+    justify-content: space-between;
+}
+
+.add {
+    filter: invert(1);
+    width: 16px;
+}
+.section{
+    display: flex;
+    min-height: 50vh;
+}
+
+.left{
+    background-color:#121212;
+    color: white;
+    width: 30vw;
+}
+
+.right{
+    background-color: #121212;
+    width: 70vw;
+    min-height: 80vh;
+}
+
+.b1{
+    gap: 29px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.b1 a{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.b2{
+    align-items: center;
+    gap: 29px;
+    margin-right: 0px;
+}
+
+.hi1{
+}
+.installlink{
+    gap: 2px;
+    align-items: center;
+    display: flex;
+}
+.b2 a{
+    justify-items: center;
+    align-items: center;
+    padding: 0%;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.b2 img{
+    gap: 2px;
+}
+
+.log {
+    align-items: center;
+    display: flex;
+    color: #000000;
+    
+}
+
+.log p{
+    margin-left: 15%;
+    color: white;
+}
+
+.logo img{
+    padding: 1px;
+    margin-left: 0%;
+    width: 39px;
+}
+
+.home img{
+    width: 39px;
+}
+
+.part{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    margin-top: 5%;
+    gap: 14px;
+   
+}
+
+.t1{
+    font-size: 98%;
+    background-color: #1f1f1f;
+    padding: 4%;
+    margin-bottom: 2px;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p1{
+    font-size: 55%;
+}
+
+.t2{
+    font-size: 98%;
+    background-color: #1f1f1f;
+    padding: 4%;
+    margin-bottom: 2px;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.log {
+    justify-items: center;
+    background-color: #000000;
+    color: white;             
+    border: none;
+    padding: 8px 16px;
+    border-radius: 35px;
+    cursor: pointer;
+    width: 94px;
+    height: 47px;
+}
+
+.home{
+    background-color: rgb(189, 188, 188);
+    border-radius: 50px;
+}
+
+.footer{
+
+    position: relative;
+    padding: 30px;
+    display: flex;
+    color: grey;
+    font-size: 16px;
+    gap: 22px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.footer a{
+    justify-content:end;
+    font-size: small;
+    color: grey;
+}
+
+.lower{
+    padding: 30px;
+}
+
+.lower a{
+    color: white;
+}
+
+.lower2{
+    padding: 30px;
+    border: 1px white;
+}
+
+.lang{
+  display: flex;
+  width: 149px;
+  height: 41px;
+  background-color: rgb(29, 28, 28);
+  border-radius: 30px;
+  align-items: center;
+  border: 1px solid white;
+  padding: 0 12px; 
+  gap: 8px; 
+}
+
+.lang img{
+    width: 42px;
+    height: 28px;
+}
+.lang p{
+    color: white;
+    margin: 0;
+}
+
+
+.search-inp{
+    border-radius: 0%;
+    height: 31px;
+    width: 440px;
+}
+
+.topr{
+    padding: 0px 40px;
+}
+
+.TrendingLink{
+    padding-top: 32px;
+}
+
+.TrendingLink a{
+    font-size: 165%;
+    color: rgb(255, 255, 255);
+}
+
+.songcard{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding: 22px;
+    margin-left: -20px;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; 
+}
+
+.card{
+    /*background-color: azure;*/
+    width: 167px;
+    height: 248px;
+}
+
+.card img{
+    border-radius: 5%;
+    width: 167px;
+}
+
+.song{
+    text-align: start;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.song a{
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-justify: auto;
+}
+
+.artist{
+    margin-left: -10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.artist a{
+    color: grey;
+    font-size: 13px;
+}
+
+.card2 img{
+    border-radius: 50%;
+    width: 173px;
+    
+}
+
+.artistcard{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding: 22px;
+    margin-left: -20px;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; 
+}
+
+.topr2{
+    padding: 0px 40px;
+}
+
+.artists{
+    padding-top: 32px;
+}
+
+.artists a{
+    font-size: 165%;
+    color: rgb(255, 255, 255);
+}
+
+.info2 a{
+    color: white;
+}
+
+.info2{
+    color: grey;
+}
